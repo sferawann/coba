@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Employee</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <form class="ui form">
+      <div class="ui inverted segment">
+        <div class="ui inverted form">
+          <h2>New Employee</h2>
+          <div class="field">
+            <div class="four wide field">
+              <label>Full Name</label>
+              <input type="text" name="full-name" placeholder="Full Name" />
+            </div>
+          </div>
+          <div class="ui form">
+            <div class="field">
+              <div class="four wide field">
+                <label for="">Job Label</label>
+                <select>
+                  <option value="">Select Job Level</option>
+                  <option value="IE">Internship</option>
+                  <option value="EE">Employee</option>
+                  <option value="SF">Staff</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="ui form">
+            <div class="field">
+              <div class="four wide field">
+                <label for="">Job Position</label>
+                <select>
+                  <option value="">Select Job Position</option>
+                  <option value="RD">R&D Public Relation</option>
+                  <option value="BE">Back End</option>
+                  <option value="FE">Front End</option>
+                  <option value="DM">Database Master</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <div class="four wide field">
+              <label>Username</label>
+              <input type="text" name="username" placeholder="Username" />
+            </div>
+          </div>
+          <div class="field">
+            <div class="four wide field">
+              <label>Email</label>
+              <input type="text" name="email" placeholder="Email" />
+            </div>
+          </div>
+          <hr />
+          <button class="ui primary button" type="submit">Save</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
